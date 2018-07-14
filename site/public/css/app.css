@@ -56,7 +56,8 @@ a{ text-decoration: none; }
 		}
 			.header__content .header__info .contatos .telefones {
   			  display: flex;
-              justify-content: space-between;
+          justify-content: space-between;
+          width: 30%;
  			}
 
 .header .header__content .header__menu ul {
@@ -93,16 +94,31 @@ a{ text-decoration: none; }
   justify-content: center;
 }
 
+.home .home__content .home--info {
+  height: 90pt;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home .home__content .home--info h1 {
+  font-size: 52pt;
+}
 .home .home__content .home--info a{
   padding: 12px 16px;
   border: none;
   background:#9F232D;
   color:white;
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
   font-size: 14pt;
   letter-spacing: .09em;
   border-radius: 8px;
+  width: 30%;
   transition: background-color 1s;
   font-family:'Encode Sans Semi Condensed', sans-serif;
 }
