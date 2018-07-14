@@ -1,0 +1,120 @@
+.btn.btn-big {
+  font-size: 18px;
+  padding: 15px 20px;
+  min-width: 100px;
+}
+.btn-close {
+  color: #aaa;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  cursor: pointer;
+}
+.btn-close:hover {
+  color: #919191;
+}
+.modal:before {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+/*.modal:target:before {
+  display: block;
+}
+.modal:target .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%;
+}*/
+
+.modal-show .modal-dialog{
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%;
+}
+.modal-show:before {
+  display: block;
+}
+.modal-dialog {
+  background: #fefefe;
+  border: #333 solid 1px;
+  border-radius: 5px;
+  margin-left: -200px;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  -webkit-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal-body {
+  padding: 20px;
+}
+.modal-header,
+.modal-footer {
+  padding: 10px 20px;
+}
+.modal-header {
+  border-bottom: #eee solid 1px;
+}
+.modal-header h2 {
+  color: #2D2D2D;
+  font-family: "Playfair Display";
+  font-size: 1.45em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.modal-footer {
+  border-top: #eee solid 1px;
+  text-align: right;
+}
+
+.modal-footer a{
+  border: 2px solid #2D2D2D;
+  border-radius: 0.313em;
+  color: #2D2D2D;
+  font-family: "Encode Sans Semi Condensed";
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1.563em;
+  text-align: center;
+  transition: .3s ease-out;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 8px 15px;
+  min-width: 60px;
+  position: relative;
+  text-decoration: none;
+}
+
+.modal-footer a:hover{
+  background: #2D2D2D;
+  color: #fff;
+}
+
+.modal-body p {
+  color: #2D2D2D;
+  font-family: "Playfair Display";
+  font-size: 1.250em;
+  line-height: 27px;
+}
