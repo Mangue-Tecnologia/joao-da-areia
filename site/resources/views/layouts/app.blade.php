@@ -36,6 +36,8 @@
     <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400,500,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" type="text/css" href="/css/plugins/slick.css"/>
     <link rel="stylesheet" type="text/css" href="/css/plugins/slick-theme.css"/>
@@ -43,6 +45,7 @@
 
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/responsive.css">
 
 </head>
@@ -68,6 +71,7 @@
     <script src="/js/plugins/slick.min.js" ></script>
     <script src="/js/plugins/jquery.mask.js" ></script>
     <script src="/js/app.js"></script>
+    <script src="/js/wow.min.js"></script>
         
 </body>
 </html>

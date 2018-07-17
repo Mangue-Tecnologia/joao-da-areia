@@ -116,8 +116,31 @@ jQuery(function($){
 
     }
 
+    MANGUE.wow = function(){
+        wow = new WOW({
+          animateClass: 'animated', // default
+          offset:       0,          // default
+          mobile:       true,       // default
+          live:         true        // default
+        }).init();
+
+    }
     MANGUE.effects = function(){
 
+    }
+
+    MANGUE.modals = function(){
+
+        $('.orcamento-btn').on('click', function(){
+            $('.orcamento-modal').show();
+        });
+
+        $('.bt-close a').on('click', function(){
+            $('.orcamento-modal').hide();
+        });
+
+
+    
     }
 
     MANGUE.mascaras = function(){
@@ -221,6 +244,8 @@ jQuery(function($){
         MANGUE.slick();
         MANGUE.effects();
         MANGUE.contato();
+        MANGUE.modals();
+        MANGUE.wow();
 
     });    
 

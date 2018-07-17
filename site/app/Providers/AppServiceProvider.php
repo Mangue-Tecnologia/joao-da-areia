@@ -41,13 +41,15 @@ class AppServiceProvider extends ServiceProvider {
             'url_base' => $url_base,
             'admin_base' => $admin_base
         ));
+
+        //var_dump($data);
     }
 
     private function get_data($admin_base){
 
-        //$json = json_decode(file_get_contents($admin_base.'json/home'),true);
+        $json = json_decode(file_get_contents($admin_base.'json/home'),true);
 
-        $json = array();
+        //$json = array();
 
         return $json;
     

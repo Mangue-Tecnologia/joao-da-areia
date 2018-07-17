@@ -6,18 +6,18 @@
 					<img src="/img/logo.png">
 				</div>
 				<div class="contatos">
-					<p>Fale conosco</p>
+					<p id="title">Fale conosco</p>
 					<div class="telefones">
 						
-							<i class="ion-social-apple"></i>
-							<p>(xx) 99424-8184</p>
+							<i class="ion-social-whatsapp"></i>
+							<p>(81) 99424-8188</p>
 						
 						
-							<i class="ion-social-apple"></i>
-							<p>(xx) 99424-8184</p>
+							<i class="ion-ios-telephone"></i>
+							<p>(81) 3204-5226</p>
 						
 					</div>
-					<p>emaildaempresa@gmail.com</p>
+					<p id="email">emaildaempresa@gmail.com</p>
 				</div>
 			</div>
 		</div>
@@ -26,7 +26,7 @@
 			<nav>
 				<ul>
 					<li class="scroll-click">
-						<a title="inicio" href="#home" aria-haspopup = "true">Inicio</a>
+						<a title="inicio" href="#home" aria-haspopup = "true">Início</a>
 					</li>
 					<li class="scroll-click">
 						<a title="sobre" href="#sobre" aria-haspopup = "true">Sobre</a>
