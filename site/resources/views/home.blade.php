@@ -282,5 +282,83 @@
 </div>
 
 
+<!-- =======================
+			#Produto-single
+========================= -->
+
+<div class="produto-single">
+	<div class="container produto-single__content">
+		<div class="title">
+			<h1>Areia</h1>
+		</div>
+		<div class="produtos--secao">
+			<div class="produto">
+				<div class="overflow-image">
+					<div class="image" style="background-image: url(../img/areia-Grossa.jpg);">
+						
+					</div>
+				</div>
+				<div class="produto-detalhes">
+					<div class="nome">
+						<p>Areia Lavada Grossa</p>
+					</div>
+					<div class="texto">
+						<p>Recomendada para o chapisco, emboço, fabricação de argamassa de assentameno para piso, fabricação de argamassa de assentamento para alvenaria e fabricação de concreto.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="produto">
+				<div class="overflow-image"><div class="image" style="background-image: url(../img/areia-Grossa.jpg);"></div></div>
+				<div class="produto-detalhes">
+					<div class="nome">
+						<p>Areia Lavada Grossa</p>
+					</div>
+					<div class="texto">
+						<p>Recomendada para o chapisco, emboço, fabricação de argamassa de assentameno para piso, fabricação de argamassa de assentamento para alvenaria e fabricação de concreto.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="produto">
+				<div class="overflow-image"><div class="image" style="background-image: url(../img/areia-Grossa.jpg);"></div></div>
+				<div class="produto-detalhes">
+					<div class="nome">
+						<p>Areia Lavada Grossa</p>
+					</div>
+					<div class="texto">
+						<p>Recomendada para o chapisco, emboço, fabricação de argamassa de assentameno para piso, fabricação de argamassa de assentamento para alvenaria e fabricação de concreto.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="produto">
+				<div class="overflow-image"><div class="image" style="background-image: url(../img/areia-Grossa.jpg);"></div></div>
+				<div class="produto-detalhes">
+					<div class="nome">
+						<p>Areia Lavada Grossa</p>
+					</div>
+					<div class="texto">
+						<p>Recomendada para o chapisco, emboço, fabricação de argamassa de assentameno para piso, fabricação de argamassa de assentamento para alvenaria e fabricação de concreto.</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+<div class="pedir-orcamento">
+	<div class="container pedir-orcamento__content">
+		<div class="chamada-orcamento">
+			<h1>Ficou Interessado? Faça o seu orçamento </h1>
+		</div>
+
+		<div class="abrir-modal">
+			<button class="orcamento-btn">Clique aqui</button>
+		</div>
+	</div>
+</div> 
 
 @stop

@@ -30,7 +30,7 @@ jQuery(function($){
             bodyItens = body.find("a"),
 
             scrollItems = menuItems.map(function(){
-                var item = $($(this).attr("href"));
+                var item = ($(this).attr("href")); //tavam 2 desse $, tirei e pegou
                 if (item.length) { return item; }
             });
 
@@ -83,20 +83,13 @@ jQuery(function($){
             accessibility: true,
             autoplay: true,
             autoplaySpeed: 3000,
-            slidesToShow:3,
-            slidesToScroll:3,
+            slidesToShow: 3,
+            slidesToScroll: 3,
                 
             responsive: [
+                
                 {
-                    breakpoint: 1045,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true
-                    }
-                },
-                {
-                    breakpoint: 600,
+                    breakpoint: 767,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,

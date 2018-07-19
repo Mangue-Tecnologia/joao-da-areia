@@ -1,30 +1,122 @@
 /* responsive */
+@media (max-width: 1440px) {
+	.mobile { display: none; }
+}
+@media (max-width: 1366px) {
 
-@media (min-width: 1440px) {
+	.produto-single { margin-bottom: 10%; }
 
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1280px) {
+	.header__content .header__info .contatos .telefones { width: 41%; }
+}
+
+@media (max-width:1024px) {
+
+	.home .home__content .home--info { width: 100%; }
+
+	.header__content .header__info .contatos .telefones { width: 52%; }
+
+	.servicos .servicos__content .servicos--secao .servico { 
+	  width: 300px;
+	  margin-right: 5%;
+	  margin-bottom: 5%;
+	}
+		.servicos .servicos__content .servicos--secao .servico:nth-child(4) { margin-right: 5%; }
+
+	.produto-single { margin-bottom: 45%; }
+
+	.produto-single .produto-single__content .produtos--secao .produto {
+		width: 100%;
+	}
+
+	.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes {
+	  width: 50%;
+	  justify-content: initial;
+	}
+
+	.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes .nome { font-size: 18pt; }
+	.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes .texto { font-size: 15pt; }
+
+	.pedir-orcamento .pedir-orcamento__content .chamada-orcamento { font-size: 26pt; }
 
 }
 
-@media(max-width:1024px) {
+
+
+@media (max-width: 768px) {
+
+	.header__content .header__info .contatos .telefones {
+      width: 65%;
+      font-size: 13pt;
+    }
+    	.header .header__content .header__info .contatos #email { font-size: 13pt; }
+	.home .home__content .home--info { margin-bottom: 4%; }
+		.home .home__content .home--info h1 { font-size: 35pt; }
+		.home .home__content .home--info a { width: 50%; }
+
+	.sobre .sobre__content .sobre--empresa { 
+		flex-direction: column; 
+		justify-content: center;
+    	align-items: center;
+    	margin-top: 7%;
+	}
+
+	.sobre .sobre__content .sobre--empresa .empresa {
+		width: 70%;
+		margin-right: 0%;
+		margin-bottom: 4%;
+	}
+
+	.pedir-orcamento .pedir-orcamento__content { flex-direction: column; }
+
+	footer .container .redes-sociais > a { margin-right: 60%; }
+}
+
+@media (max-width: 680px) {
+	.header .header__content .header__info .contatos, .header .header__content .header__menu{ display: none; }
+	.header .header__content .header__info .mobile { display: block; }
+	.sobre .sobre__content .sobre--paragrafo p { text-align: justify; }
+}
+
+@media (max-width: 550px) {
+
+	
+	footer .container { flex-direction: column; }
+	footer .container > div { margin-bottom: 2%; }
+		footer .container .empresa { font-size: 22pt; }
+		footer .container .redes-sociais > a { margin-right: 100%; }
+
+	.home .home__content .home--info a { width: 100%; }
+
+	.produtos .produtos__content .paragrafo, 
+	.servicos .servicos__content .paragrafo { margin-bottom: 10%; }
 
 }
 
-@media(max-width: 768px) {
+@media (max-width: 425px) {
 
-}
+	.home { height: 125vh; }
+		.home .home__content .home--info {
+	      margin-top: 20%;
+	      margin-bottom: 10%;
+	    }
+			.home .home__content .home--info a { margin-top: 6%; }
 
-@media not all and (max-width:768px) {
+		.home .home__content .home--whatsApp { justify-content: center; }
 
-}
-
-@media(max-width: 425px) {
+	.produtos .produtos__content .produtos--secao .overflow,
+	.servicos .servicos__content .servicos--secao .servico { margin-bottom: 10%; }
+	
 
 }
 
 @media(max-width: 375px) {
+
+	.paragrafo h1 { font-size: 35pt; }
+	.produtos .produtos__content .paragrafo p,
+	.servicos .servicos__content .paragrafo p { font-size: 15pt; }
 
 }
 
