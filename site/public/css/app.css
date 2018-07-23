@@ -99,6 +99,62 @@ a{ text-decoration: none; }
 /*------------------------------------*\
       #Header-Mobile
 \*------------------------------------*/
+.mobile {
+  display: flex;
+  margin: 5%;
+  font-size: 22pt;
+  align-items: center;
+}
+
+.mobile a { color: #F47A0D; }
+.menu-mobile {
+  position: fixed;
+  z-index: 99999999999;
+  width: 100%;
+  display: none;
+  height: 100vh;
+  overflow: scroll;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu-mobile .container .close {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+  font-size: 25pt;
+  margin-top: 5%;
+  
+}
+
+.menu-mobile .container .close a { color: #F47A0D; }
+
+.menu-mobile .container ul li { margin-bottom: 2%; }
+.menu-mobile .container ul li a {
+  font-size: 22pt;
+  color: #042638;
+}
+
+.menu-mobile .container .contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  color: #042638;
+}
+.menu-mobile .container .contatos .whatsApp,
+ .menu-mobile .container .contatos .telefone {
+    display: flex;
+    font-size: 18pt;
+    width: 50%;
+    margin-bottom: 2%;
+    justify-content: space-evenly;
+ }
+
+.menu-mobile .container .contatos .whatsApp i,
+ .menu-mobile .container .contatos .telefone i { color: #F47A0D; }
+
+.menu-mobile .container .contatos p { font-size: 18pt; }
 
 
 /*------------------------------------*\
@@ -569,6 +625,7 @@ footer .container .desenvolvido > div img{
 /*------------------------------------*\
     #Modal-SEÇÃO
 \*------------------------------------*/
+
 .orcamento-modal {
   position: fixed;
   z-index: 99999999999;
@@ -578,6 +635,8 @@ footer .container .desenvolvido > div img{
 .orcamento-modal .orcamento-modal__content {
   background-color: white;
   border-radius: 20px;
+  box-shadow: 0 0 0 100vw rgba(0,0,0,.6);
+
 }
 
 .orcamento-modal .orcamento-modal__content .bt-close {

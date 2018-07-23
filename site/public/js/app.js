@@ -132,6 +132,14 @@ jQuery(function($){
             $('.orcamento-modal').hide();
         });
 
+        $('.mobile a').on('click', function(){
+            $('.menu-mobile').show();
+        });
+
+        $('.close a').on('click', function(){
+            $('.menu-mobile').hide();
+        });
+
 
     
     }

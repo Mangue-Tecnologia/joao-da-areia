@@ -21,31 +21,12 @@
 				</div>
 
 				<div class="mobile">
-					<a class="open" href="javascript:void(0);"><i class="ion-navicon-round"></i></a>
-					<div class="menu-mobile">
-						
-							<ul>
-								<li class="scroll-click">
-									<a title="inicio" href="#home" aria-haspopup = "true">Início</a>
-								</li>
-								<li class="scroll-click">
-									<a title="sobre" href="#sobre" aria-haspopup = "true">Sobre</a>
-								</li>
-								<li class="scroll-click">
-									<a title="produtos" href="#produtos" aria-haspopup = "true">Produtos</a>
-								</li>
-								<li class="scroll-click">
-									<a title="servicos" href="#servicos" aria-haspopup = "true">Serviços</a>
-								</li>
-								<li class="scroll-click">
-									<a title="contato" href="#contato" aria-haspopup = "true">Contato</a>
-								</li>
-							</ul>
-						
-					</div>
+					<a href="javascript:void(0);"><i class="ion-navicon-round"></i></a>
 				</div>
-			</div>
+				
+			
 		</div>
+	</div>
 
 		<div class="header__menu">
 			<nav>
@@ -67,6 +48,7 @@
 					</li>
 				</ul>
 			</nav>
+
 		</div>
 	</div>
 

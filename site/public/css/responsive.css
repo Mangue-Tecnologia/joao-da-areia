@@ -1,15 +1,18 @@
 /* responsive */
 @media (max-width: 1440px) {
-	.mobile { display: none; }
+	.mobile,
+	.menu-mobile { display: none;}
 }
 @media (max-width: 1366px) {
 
 	.produto-single { margin-bottom: 10%; }
+	/*.orcamento-modal .orcamento-modal__content .bt-close { margin-top: 0; }*/
 
 }
 
 @media (min-width: 1280px) {
 	.header__content .header__info .contatos .telefones { width: 41%; }
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto { width: 45%; }
 }
 
 @media (max-width:1024px) {
@@ -40,6 +43,18 @@
 	.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes .texto { font-size: 15pt; }
 
 	.pedir-orcamento .pedir-orcamento__content .chamada-orcamento { font-size: 26pt; }
+
+	.orcamento-modal {
+		height: 100vh;
+		overflow: scroll;
+
+	}
+		.orcamento-modal .orcamento-modal__content .orcamento .title { justify-content: center; }
+		.orcamento-modal .orcamento-modal__content .orcamento .produtos-info {
+			flex-direction: column;
+			align-items: center;
+		}
+			.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto { width: 70%; }
 
 }
 
@@ -72,11 +87,18 @@
 	.pedir-orcamento .pedir-orcamento__content { flex-direction: column; }
 
 	footer .container .redes-sociais > a { margin-right: 60%; }
+
+	.orcamento-modal .orcamento-modal__content .orcamento .campos { flex-direction: column; }
+	.orcamento-modal .orcamento-modal__content .orcamento .campos .primeira-coluna,
+	 .orcamento-modal .orcamento-modal__content .orcamento .campos .segunda-coluna, 
+		.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto { width: 100%; }
+
+	.orcamento-modal .orcamento-modal__content .orcamento .bt-enviar button { width: 40%; }
 }
 
 @media (max-width: 680px) {
-	.header .header__content .header__info .contatos, .header .header__content .header__menu{ display: none; }
-	.header .header__content .header__info .mobile { display: block; }
+	.header .header__content .header__info .contatos, .header .header__content .header__menu { display: none; }
+	.mobile { display: block; }
 	.sobre .sobre__content .sobre--paragrafo p { text-align: justify; }
 }
 
@@ -97,6 +119,10 @@
 
 @media (max-width: 425px) {
 
+	.mobile { font-size: 40pt; }
+	.menu-mobile .container .contatos .whatsApp,
+	 .menu-mobile .container .contatos .telefone { width: 100%; }
+
 	.home { height: 125vh; }
 		.home .home__content .home--info {
 	      margin-top: 20%;
@@ -110,10 +136,34 @@
 	.servicos .servicos__content .servicos--secao .servico { margin-bottom: 10%; }
 	
 
+	.orcamento-modal .orcamento-modal__content .bt-close {
+		justify-content: center;
+		margin-bottom: 5%;
+	}
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto {
+		flex-direction: column;
+		margin-right: 0;
+	}
+
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--nome {
+		width: 100%;
+		margin-bottom: 5%;
+		justify-content: center;
+
+	}
+
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade p { margin-right: 12%; }
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade input { width: 200px;  }
 }
 
 @media(max-width: 375px) {
 
+	.menu-mobile .container .close { justify-content: center; }
 	.paragrafo h1 { font-size: 35pt; }
 	.produtos .produtos__content .paragrafo p,
 	.servicos .servicos__content .paragrafo p { font-size: 15pt; }
@@ -121,9 +171,27 @@
 }
 
 @media(max-width: 360px) {
+	.menu-mobile .container .contatos p { font-size: 16pt; }
+	.orcamento-modal .orcamento-modal__content .orcamento .title { font-size: 25pt; }
+
 
 }
 
 @media(max-width: 320px) {
+
+	.mobile { font-size: 30pt; }
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade,
+	 .orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--nome {
+		flex-direction: column;
+	}
+
+	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--nome p,
+	 .orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade p {
+		margin-bottom: 5%;
+	} 
+
+	.orcamento-modal .orcamento-modal__content .orcamento .bt-enviar button {
+      width: 65%;
+	}
 
 }
