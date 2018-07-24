@@ -11,3 +11,5 @@ Route::get('/produtos', 'ProdutosController@index');
 Route::get('/servicos', 'ServicosController@index');
 
 Route::get('/contato', 'ContatoController@index');
+
+Route::get('/single_produto', 'HomeController@singleProduto');

@@ -81,7 +81,7 @@
 
 		<div class="produtos--secao wow slideInUp" data-wow-duration="2s">
 			<div class="overflow">
-				<a class="produto" style="background-image: url(../img/produtos/areia-grossa.png);" href="#">
+				<a class="produto" style="background-image: url(../img/produtos/areia-grossa.png);" href="/single_produto">
 					<div class="produto--info">
 						<div class="nome">
 							<p>Areia</p>
@@ -94,7 +94,7 @@
 			</div>
 
 			<div class="overflow">
-				<a class="produto" style="background-image: url(../img/produtos/brita.jpg);" href="#">
+				<a class="produto" style="background-image: url(../img/produtos/brita.jpg);" href="/single_produto">
 					<div class="produto--info">
 						<div class="nome">
 							<p>Brita</p>
@@ -107,7 +107,7 @@
 			</div>
 
 			<div class="overflow">
-				<a class="produto" style="background-image: url(../img/produtos/barro.jpg);" href="#" >
+				<a class="produto" style="background-image: url(../img/produtos/barro.jpg);" href="/single_produto" >
 					<div class="produto--info">
 						<div class="nome">
 							<p>Barro</p>
@@ -120,7 +120,7 @@
 			</div>
 
 			<div class="overflow">
-				<a class="produto" style="background-image: url(../img/produtos/diversos.jpg);" href="#">
+				<a class="produto" style="background-image: url(../img/produtos/diversos.jpg);" href="/single_produto">
 					<div class="produto--info">
 						<div class="nome">
 							<p>Diversos</p>

@@ -4,11 +4,15 @@
 
 @section('content')
 
+@include('includes.modal-orcamento')
+
+@include('includes.menu-mobile')
+
 <!-- =======================
 			#Produto-single
 ========================= -->
 
-<div class="produto-single">
+<div class="produto-single" id="produto-single">
 	<div class="container produto-single__content">
 		<div class="title">
 			<h1>Areia</h1>
@@ -129,3 +133,5 @@
 		<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1C9hZHwQU-nk9AeVA4p8snIipZkZwxMSG" width="640" height="480" allowfullscreen frameborder="0" style="position:relative; top:-50px; border:none;"></iframe>
 	</div>
 </div>
+
+@stop

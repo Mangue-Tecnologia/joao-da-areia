@@ -97,7 +97,7 @@
 }
 
 @media (max-width: 680px) {
-	.header .header__content .header__info .contatos, .header .header__content .header__menu { display: none; }
+	.header .header__content .header__info .contatos, .header .header__content .header__menu, .formulario { display: none; }
 	.mobile { display: block; }
 	.sobre .sobre__content .sobre--paragrafo p { text-align: justify; }
 }

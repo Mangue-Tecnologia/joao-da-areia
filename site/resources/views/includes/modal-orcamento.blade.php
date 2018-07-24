@@ -30,6 +30,10 @@
 							<li>
 				                <input type="text" id="telefone" name="telefone" placeholder="Telefone: ">
 				            </li>
+
+				            <li>
+				                <input type="text" id="endereco" name="endereco" placeholder="Endereço: ">
+				            </li>
 				        </ul>
 			        </form>
 			    </div>
