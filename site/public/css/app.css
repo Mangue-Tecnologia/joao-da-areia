@@ -638,7 +638,7 @@ footer .container .desenvolvido > div img{
 .orcamento-modal .orcamento-modal__content {
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 0 0 100vw rgba(0,0,0,.6);
+  box-shadow: 0 0 0 100vw rgba(4,38,56,0.72);
 
 }
 
@@ -755,7 +755,7 @@ footer .container .desenvolvido > div img{
 
 .produto-single {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .produto-single .produto-single__content { margin-top: 15%; }

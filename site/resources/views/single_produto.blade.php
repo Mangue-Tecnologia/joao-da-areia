@@ -78,7 +78,7 @@
 <div class="pedir-orcamento">
 	<div class="container pedir-orcamento__content">
 		<div class="chamada-orcamento">
-			<h1>Ficou Interessado? Faça o seu orçamento </h1>
+			<h1>Ficou Interessado? <span> Faça o seu orçamento </span></h1>
 		</div>
 
 		<div class="abrir-modal">

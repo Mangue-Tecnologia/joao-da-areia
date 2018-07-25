@@ -3,12 +3,6 @@
 	.mobile,
 	.menu-mobile { display: none;}
 }
-@media (max-width: 1366px) {
-
-	.produto-single { margin-bottom: 10%; }
-	/*.orcamento-modal .orcamento-modal__content .bt-close { margin-top: 0; }*/
-
-}
 
 @media (min-width: 1280px) {
 	.header__content .header__info .contatos .telefones { width: 41%; }
@@ -28,7 +22,7 @@
 	}
 		.servicos .servicos__content .servicos--secao .servico:nth-child(4) { margin-right: 5%; }
 
-	.produto-single { margin-bottom: 45%; }
+	.produto-single .produto-single__content { margin-top: 20%; }
 
 	.produto-single .produto-single__content .produtos--secao .produto {
 		width: 100%;
@@ -84,6 +78,8 @@
 		margin-bottom: 4%;
 	}
 
+	.produto-single .produto-single__content { margin-top: 25%; }
+
 	.pedir-orcamento .pedir-orcamento__content { flex-direction: column; }
 
 	footer .container .redes-sociais > a { margin-right: 60%; }
@@ -135,7 +131,23 @@
 	.produtos .produtos__content .produtos--secao .overflow,
 	.servicos .servicos__content .servicos--secao .servico { margin-bottom: 10%; }
 	
+	.produto-single .produto-single__content { margin-top: 35%; }
+		.produto-single .produto-single__content .produtos--secao .produto {
+		   flex-direction: column;
+		   margin-bottom: 10%;
+		}
+			.produto-single .produto-single__content .produtos--secao .produto .overflow-image { width: initial; }
+				.produto-single .produto-single__content .produtos--secao .produto .overflow-image .image { width: 100%; }
+			
+			.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes {
+				margin-left: 0;
+				width: 100%;
+				margin-top: 2%;
+			}
 
+			.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes .nome { font-size: 16pt; }
+			.produto-single .produto-single__content .produtos--secao .produto .produto-detalhes .texto { font-size: 14pt; }
+	
 	.orcamento-modal .orcamento-modal__content .bt-close {
 		justify-content: center;
 		margin-bottom: 5%;
@@ -159,6 +171,14 @@
 
 	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade p { margin-right: 12%; }
 	.orcamento-modal .orcamento-modal__content .orcamento .produtos-info .produto .produto--quantidade input { width: 200px;  }
+
+	.pedir-orcamento .pedir-orcamento__content .chamada-orcamento h1 span:before {
+      content: '\A';
+      white-space: pre;
+    }
+
+
+
 }
 
 @media(max-width: 375px) {
@@ -167,7 +187,9 @@
 	.paragrafo h1 { font-size: 35pt; }
 	.produtos .produtos__content .paragrafo p,
 	.servicos .servicos__content .paragrafo p { font-size: 15pt; }
-
+	.mobile { font-size: 35pt; }
+	.pedir-orcamento .pedir-orcamento__content .chamada-orcamento { font-size: 22pt; }
+	.pedir-orcamento .pedir-orcamento__content .abrir-modal button { font-size: 18pt; }
 }
 
 @media(max-width: 360px) {
@@ -193,5 +215,7 @@
 	.orcamento-modal .orcamento-modal__content .orcamento .bt-enviar button {
       width: 65%;
 	}
+
+	.pedir-orcamento .pedir-orcamento__content .chamada-orcamento { font-size: 20pt; }
 
 }
